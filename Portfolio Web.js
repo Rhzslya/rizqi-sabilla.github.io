@@ -934,7 +934,9 @@ function project() {
     window.addEventListener("resize", function () {
       updateTotalCount();
       setLengthSwiperBox();
-      resetIfResize();
+      if (this.window.innerWidth >= 576) {
+        resetIfResize();
+      }
     });
     function updateMainImg() {
       mainImageProject.classList.add("active-image-project");
@@ -976,19 +978,6 @@ function project() {
         setSwiperBoxSize = 4;
         setSwiperBoxSizeTwo = 3;
       }
-    }
-
-    function resetIfResize() {
-      currentIndex = 0;
-      swiperBox.forEach((deleteClass) => {
-        deleteClass.classList.remove("active-img-another-project");
-      });
-      swiperContainer.forEach((setTranslateX) => {
-        setTranslateX.style.transform = `translateX(0px)`;
-      });
-      updateMainImg();
-      mainImageProject.classList.remove("active-image-project");
-      swiperBox[currentIndex].classList.add("active-img-another-project");
     }
 
     swiperBox.forEach((icon, index) => {
@@ -1102,6 +1091,18 @@ function project() {
       updateTotalCount();
       setLengthSwiperBox();
     });
+    function resetIfResize() {
+      currentIndex = 0;
+      swiperBox.forEach((deleteClass) => {
+        deleteClass.classList.remove("active-img-another-project");
+      });
+      swiperContainer.forEach((setTranslateX) => {
+        setTranslateX.style.transform = `${currentTranslateX}px`;
+      });
+      updateMainImg();
+      mainImageProject.classList.remove("active-image-project");
+      swiperBox[currentIndex].classList.add("active-img-another-project");
+    }
   }
   anotherProject();
 }
