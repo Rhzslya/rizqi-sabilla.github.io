@@ -6817,7 +6817,7 @@ p {
   .slider-project .container-slider-project .navigation-box .container-swiper {
     margin: auto;
     align-self: center;
-    width: 296px;
+    width: 288px;
     padding: 1.5rem 0;
   }
 
@@ -6841,8 +6841,8 @@ p {
     .container-swiper
     .swiper-box
     img {
-    width: 60px;
-    height: 60px;
+    width: 58px;
+    height: 58px;
   }
   /* Container Project End */
   /* Container Contact Start */
