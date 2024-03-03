@@ -3021,7 +3021,7 @@ p {
     display: block;
     height: 100vh;
     background-color: rgba(250, 128, 114, 0.75);
-    padding: 0 2rem 0 2rem;
+    padding: 1rem 2rem 0 2rem;
     transition: all 0.5s;
   }
 
@@ -3159,8 +3159,19 @@ p {
   .text-content .text-content-container .button-text-container {
     width: 100%;
     justify-content: center;
+    display: block;
+    text-align: center;
   }
-
+  .text-content .text-content-container .button-text-container .button-text {
+    margin: 0;
+  }
+  .text-content
+    .text-content-container
+    .button-text-container
+    .button-text
+    button {
+    margin: 0.5rem 0;
+  }
   .text-content
     .text-content-container
     .button-text-container
@@ -3274,7 +3285,7 @@ p {
   }
 
   .container-about-me .main-box-about-me .flex-box-about-me {
-    min-height: 300px;
+    min-height: 360px;
     position: relative;
   }
 
@@ -3300,6 +3311,15 @@ p {
     button {
     font-size: 15px;
     color: var(--clr-white);
+  }
+  .content-skils {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-skils .content-skils-box {
+    display: block;
+    width: 100%;
   }
   .content-skils .content-skils-box .skils-box h4 {
     font-size: 14px;
@@ -3341,6 +3361,8 @@ p {
 
   .title-about-contact .box-content-about-contact .box-title-about-contact h1 {
     -webkit-text-stroke: 1px black;
+    text-wrap: wrap;
+    padding: 0.5rem;
   }
   .title-about-contact div ul {
     width: 100%;
@@ -3426,7 +3448,7 @@ p {
   }
 
   .container-content-project .description-project .title-project .box-content {
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
 
   .container-content-project
@@ -3492,6 +3514,7 @@ p {
     .icon-content-project
     img {
     max-width: 30px;
+    margin: 0 0.5rem;
   }
 
   /*  */
@@ -3749,6 +3772,9 @@ p {
     text-align: center;
     text-wrap: nowrap;
   }
+  .mark-name .content-mark span {
+    text-align: center;
+  }
   /* Container Contact End */
 }
 @media (min-width: 261px) and (max-width: 320px) {
@@ -3840,7 +3866,7 @@ p {
     display: block;
     height: 100vh;
     background-color: rgba(250, 128, 114, 0.75);
-    padding: 0 2rem 0 2rem;
+    padding: 1rem 2rem 0 2rem;
     transition: all 0.5s;
   }
 
@@ -4658,7 +4684,7 @@ p {
     display: block;
     height: 100vh;
     background-color: rgba(250, 128, 114, 0.75);
-    padding: 0 2rem 0 2rem;
+    padding: 1rem 2rem 0 2rem;
     transition: all 0.5s;
   }
 
@@ -5453,7 +5479,7 @@ p {
     display: block;
     height: 100vh;
     background-color: rgba(250, 128, 114, 0.75);
-    padding: 0 2rem 0 2rem;
+    padding: 1rem 2rem 0 2rem;
     transition: all 0.5s;
   }
 
@@ -6249,7 +6275,7 @@ p {
     display: block;
     height: 100vh;
     background-color: rgba(250, 128, 114, 0.75);
-    padding: 0 2rem 0 2rem;
+    padding: 1rem 2rem 0 2rem;
     transition: all 0.5s;
   }
 
@@ -7024,7 +7050,7 @@ p {
     display: block;
     height: 100vh;
     background-color: rgba(250, 128, 114, 0.75);
-    padding: 0 2rem;
+    padding: 1rem 2rem 0 2rem;
     transition: all 0.5s;
   }
 
