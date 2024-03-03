@@ -932,9 +932,9 @@ function project() {
     updateTotalCount();
 
     window.addEventListener("resize", function () {
-      resetIfResize();
       updateTotalCount();
       setLengthSwiperBox();
+      resetIfResize();
     });
     function updateMainImg() {
       mainImageProject.classList.add("active-image-project");
@@ -958,8 +958,6 @@ function project() {
         explanationBox.classList.remove("active-explanation");
       }, 500);
     }
-
-    updateMainImg();
 
     let currentTranslateX = 0;
     let currentTranslateXArrow = 0;
