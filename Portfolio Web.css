@@ -2086,7 +2086,7 @@ p {
   .content-img-project
   .main-img-project {
   width: 100%;
-  height: 350px;
+  height: 320px;
   border-radius: inherit;
   position: relative;
   cursor: pointer;
@@ -9720,6 +9720,13 @@ p {
     width: 100%;
   }
 
+  .box-image-project
+    .container-img-box-project
+    .content-img-project
+    .main-img-project {
+    height: 260px;
+  }
+
   .waiting-content h2 {
     font-size: 3.5vw;
   }
@@ -10286,6 +10293,14 @@ p {
 
   .box-image-project .container-img-box-project .content-img-project {
     width: 100%;
+    max-width: 80%;
+  }
+
+  .box-image-project
+    .container-img-box-project
+    .content-img-project
+    .main-img-project {
+    height: 290px;
   }
 
   .waiting-content h2 {
