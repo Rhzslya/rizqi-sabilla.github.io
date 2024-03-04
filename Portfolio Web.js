@@ -1250,3 +1250,6 @@ window.addEventListener("resize", function () {
   const contentContainer = document.querySelector(".content-container");
   console.log(contentContainer.clientHeight);
 });
+
+// Set Height
+const containerHome = document.querySelector("#container-home");

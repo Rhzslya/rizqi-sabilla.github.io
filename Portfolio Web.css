@@ -8379,7 +8379,7 @@ p {
   /* Nav End */
   /* Container Home Start */
   #container-home {
-    height: 100%;
+    height: 100vh;
   }
   .bg-home {
     color: var(--clr-bone);
@@ -8825,7 +8825,7 @@ p {
   /* Container Project End */
   /* Container Contact Start */
   .container-contact-footer {
-    padding: 0 2.5rem 0 2.5rem;
+    padding: 2.5rem 2.5rem 0 2.5rem;
     /* height: 100%; */
   }
 
@@ -9387,9 +9387,10 @@ p {
   /* Container Project End */
   /* Container Contact Start */
   .container-contact-footer {
-    padding: 1rem 1rem 0 1rem;
+    padding: 2.5rem 1rem 0 1rem;
     /* height: 100%; */
   }
+
   .title-contact-footer h1 {
     font-size: 6vw;
   }
@@ -9461,9 +9462,6 @@ p {
 }
 
 @media (max-height: 1079px) {
-  #container-home {
-    height: 100%;
-  }
   .content-container {
     height: 100%;
   }
@@ -9471,18 +9469,19 @@ p {
   .container-about-me {
     height: 100%;
   }
+}
 
+@media (max-height: 999px) {
   .container-project {
-    height: 100%;
-  }
-  .container-content-project {
     height: 100%;
   }
 
   .title-project {
     height: 100%;
   }
+}
 
+@media (max-height: 934px) {
   .container-contact-footer {
     height: 100%;
   }
