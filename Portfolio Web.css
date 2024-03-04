@@ -9848,7 +9848,7 @@ p {
   /* Nav End */
   /* Container Home Start */
   #container-home {
-    height: 100vh;
+    height: 100%;
   }
 
   .bg-home {
