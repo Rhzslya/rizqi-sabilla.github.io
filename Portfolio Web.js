@@ -1253,3 +1253,19 @@ window.addEventListener("resize", function () {
 
 // Set Height
 const containerHome = document.querySelector("#container-home");
+const contentContainer = document.querySelector(".content-container");
+const containerAbout = document.querySelector(".container-about-me");
+console.log(containerHome.clientHeight);
+console.log(containerAbout.clientHeight);
+
+// function setResponsiveHeight() {
+//   if (window.innerHeight >= 768) {
+//     const isHeight = window.innerHeight;
+//     containerHome.style.maxHeight = `${isHeight}px`;
+//   } else {
+//     containerHome.style.maxHeight = `100%`;
+//   }
+// }
+
+// setResponsiveHeight();
+// window.addEventListener("resize", setResponsiveHeight);
