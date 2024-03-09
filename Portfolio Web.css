@@ -10388,13 +10388,13 @@ p {
     height: 100%;
   }
 
-  .container-about-me {
+  /* .container-about-me {
     height: 100%;
-  }
-
+  } */
+  /* 
   .container-content-project {
     height: 100%;
-  }
+  } */
 
   .container-contact-footer {
     height: 100%;
@@ -10419,7 +10419,7 @@ p {
   }
 }
 
-@media (min-width: 1920px) and (min-height: 1081px) {
+@media (min-width: 1921px) and (min-height: 1081px) {
   #container-home {
     height: 100%;
   }
@@ -10447,9 +10447,6 @@ p {
   }
 
   .header-nav {
-    width: 1920px;
-  }
-  #container-home {
-    width: 1920px;
+    width: 100%;
   }
 }
