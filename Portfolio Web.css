@@ -1009,7 +1009,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
   font-style: normal;
-  color: var(--clr-12);
+  color: var(--clr-white);
   font-size: 18px;
 }
 /* Button Start */
@@ -3068,7 +3068,6 @@ p {
   .text-content .text-content-container h3 {
     text-align: left;
     font-size: 12px;
-    color: var(--clr-12);
   }
 
   .text-content .text-content-container .static-txt .dynamic-txt {
@@ -3957,7 +3956,6 @@ p {
   .text-content .text-content-container h3 {
     text-align: justify;
     font-size: 13px;
-    color: var(--clr-12);
   }
 
   .text-content .text-content-container .static-txt .dynamic-txt {
@@ -4819,7 +4817,6 @@ p {
   .text-content .text-content-container h3 {
     text-align: justify;
     font-size: 14px;
-    color: var(--clr-12);
   }
 
   .text-content .text-content-container .static-txt .dynamic-txt {
@@ -5644,7 +5641,6 @@ p {
   .text-content .text-content-container h3 {
     text-align: justify;
     font-size: 14px;
-    color: var(--clr-12);
   }
 
   .text-content .text-content-container .static-txt .dynamic-txt {
@@ -6439,7 +6435,6 @@ p {
   .text-content .text-content-container h3 {
     text-align: justify;
     font-size: 14px;
-    color: var(--clr-12);
   }
 
   .text-content .text-content-container .static-txt .dynamic-txt {
@@ -7243,7 +7238,6 @@ p {
   .text-content .text-content-container h3 {
     text-align: justify;
     font-size: 15px;
-    color: var(--clr-12);
   }
 
   .text-content .text-content-container .static-txt .dynamic-txt {
@@ -8013,7 +8007,6 @@ p {
   .text-content .text-content-container h3 {
     text-align: justify;
     font-size: 17px;
-    color: var(--clr-12);
   }
 
   .text-content .text-content-container .static-txt .dynamic-txt {
@@ -8723,7 +8716,7 @@ p {
   .text-content .text-content-container h3 {
     text-align: justify;
     font-size: 17px;
-    color: var(--clr-12);
+
     max-width: 90%;
   }
 
@@ -9340,7 +9333,7 @@ p {
   .text-content .text-content-container h3 {
     text-align: justify;
     font-size: 17px;
-    color: var(--clr-12);
+
     max-width: 100%;
   }
 
@@ -9888,7 +9881,6 @@ p {
   .text-content .text-content-container h3 {
     text-align: justify;
     font-size: 17px;
-    color: var(--clr-12);
     max-width: 100%;
   }
 
@@ -9901,7 +9893,7 @@ p {
     .static-txt
     .dynamic-txt
     .dynamic-txt-content {
-    font-size: 3vw;
+    font-size: 26px;
   }
 
   .text-content

@@ -176,7 +176,6 @@ function setLeft() {
     // Hitung perubahan left berdasarkan perbedaan tinggi
     let setLeft = (-1 * (startHeight - currentHeight)) / 2; // Sesuaikan dengan kebutuhan
     bgColor.style.setProperty("--set-left", `${setLeft}px`);
-    console.log(setLeft);
   } else {
     // Reset nilai --set-left jika tinggi lebih dari 1080
     bgColor.style.setProperty("--set-left", "0");
@@ -313,15 +312,15 @@ typeEffect();
 
 const contentStats = [
   {
-    value: 100,
+    value: 3,
     title: "Project~",
   },
   {
-    value: 200,
+    value: 1,
     title: "User~",
   },
   {
-    value: 700,
+    value: 7,
     title: "Cerificate~",
   },
 ];
@@ -750,7 +749,6 @@ function project() {
 
   loadingText.innerHTML = spreadChar;
   const spanWaitingText = document.querySelectorAll(".span-waiting-text");
-  console.log(loadingText);
 
   function animateColors(index) {
     if (index < spanWaitingText.length) {
@@ -784,7 +782,6 @@ function project() {
 
   animateColors(0);
 
-  console.log(iconImgSoftware[0]);
   boxMainImgProject.addEventListener("mouseover", function () {
     mainImgProject.classList.add("active-img-hover");
     visibleIcon.classList.add("active-icon-visible");
@@ -1248,15 +1245,12 @@ sendMessageButton.addEventListener("click", function (event) {
 
 window.addEventListener("resize", function () {
   const contentContainer = document.querySelector(".content-container");
-  console.log(contentContainer.clientHeight);
 });
 
 // Set Height
 const containerHome = document.querySelector("#container-home");
 const contentContainer = document.querySelector(".content-container");
 const containerAbout = document.querySelector(".container-about-me");
-console.log(containerHome.clientHeight);
-console.log(containerAbout.clientHeight);
 
 // function setResponsiveHeight() {
 //   if (window.innerHeight >= 768) {
