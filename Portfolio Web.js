@@ -1187,7 +1187,6 @@ function showInvalidText(showErrorInvalid) {
 function clearErrorText(index) {
   errorNodes[index].textContent = "";
 }
-
 function isValidEmail(email) {
   const emailRegEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegEx.test(email);
@@ -1238,28 +1237,4 @@ sendMessageButton.addEventListener("click", function (event) {
     sendMessageButton.classList.remove("success-send");
     successInfo.innerHTML = "";
   }
-  // if (Array.from(errorNodes).some((error) => error.textContent !== "")) {
-  //   event.preventDefault();
-  // }
 });
-
-window.addEventListener("resize", function () {
-  const contentContainer = document.querySelector(".content-container");
-});
-
-// Set Height
-const containerHome = document.querySelector("#container-home");
-const contentContainer = document.querySelector(".content-container");
-const containerAbout = document.querySelector(".container-about-me");
-
-// function setResponsiveHeight() {
-//   if (window.innerHeight >= 768) {
-//     const isHeight = window.innerHeight;
-//     containerHome.style.maxHeight = `${isHeight}px`;
-//   } else {
-//     containerHome.style.maxHeight = `100%`;
-//   }
-// }
-
-// setResponsiveHeight();
-// window.addEventListener("resize", setResponsiveHeight);
