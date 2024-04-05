@@ -823,22 +823,21 @@ function project() {
     }
     const showAnotherProject = [
       {
-        title: `Web Development`,
-        img: `Asset/Icon-Project.jpg`,
+        title: `Portfolio Web`,
+        img: `Asset/Portfolio.png`,
         explanation:
-          "Proyek ini adalah pengembangan situs web dengan fokus pada antarmuka responsif dan pengalaman pengguna yang baik. ",
+          "Sebuah Website Portfolio yang juga menjadi Aplikasi pertama yang berhasil saya buat untuk Portfolio saya, Aplikasi ini di buat menggunakan HTML, CSS, dan Vanilla Javascript",
         iconImg1: `Asset/html-5.png`,
         iconImg2: `Asset/css-3.png`,
         iconImg3: `Asset/js.png`,
       },
       {
-        title: `UI/UX`,
-        img: `Asset/Project-Image.png`,
+        title: `Contact App Via CLI`,
+        img: `Asset/Contact App.png`,
         explanation:
-          "Proyek ini memfokuskan diri pada pengembangan situs web dengan dua aspek utama: antarmuka responsif dan pengalaman pengguna yang baik.",
-        iconImg1: `Asset/html-5.png`,
-        iconImg2: `Asset/css-3.png`,
-        iconImg3: `Asset/js.png`,
+          "Sebuah Aplikasi yang dapat membantu untuk Menambah, Menghapus, Melihat Kontak Via Command Line Interface. ",
+        iconImg1: `Asset/node-js.png`,
+        iconImg2: `Asset/js.png`,
       },
       {
         title: `Jankenpo`,
