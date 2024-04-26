@@ -719,7 +719,7 @@ function project() {
     const showAnotherProject = [
       {
         title: `Portfolio Web`,
-        img: `Asset/portfolio.png`,
+        img: `Asset/Portfolio.png`,
         explanation:
           "Sebuah Website Portfolio yang juga menjadi Aplikasi pertama yang berhasil saya buat untuk Portfolio saya, Aplikasi ini di buat menggunakan HTML, CSS, dan Vanilla Javascript",
         iconImg1: `Asset/html-5.png`,
