@@ -628,111 +628,6 @@ buttonSkils.forEach((e, i) => {
   });
 });
 
-// Fungsi Button Experience End
-
-// Project Object Start
-// function myProject() {
-//   const bodyProject = document.querySelector(".container-content-project");
-//   let card = "";
-
-//   const isContentProject = [
-//     {
-//       image: "Asset/Project-Image.png",
-//       title: `Web Development`,
-//       description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-//               aspernatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-//               aspernatur`,
-//       iconVisible: `Asset/visible.png`,
-//       iconCode: `Asset/code.png`,
-//     },
-//     {
-//       image: `Asset/Project-Image.png`,
-//       title: `Javascript`,
-//       description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-//               aspernatur.`,
-//       iconVisible: `Asset/visible.png`,
-//       iconCode: `Asset/code.png`,
-//     },
-//     {
-//       image: `Asset/Project-Image.png`,
-//       title: `UI UX`,
-//       description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-//               aspernatur.`,
-//       iconVisible: `Asset/visible.png`,
-//       iconCode: `Asset/code.png`,
-//     },
-//     {
-//       image: `Asset/Project-Image.png`,
-//       title: `UI UX`,
-//       description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-//               aspernatur.`,
-//       iconVisible: `Asset/visible.png`,
-//       iconCode: `Asset/code.png`,
-//     },
-//     {
-//       image: `Asset/Project-Image.png`,
-//       title: `UI UX`,
-//       description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-//               aspernatur.`,
-//       iconVisible: `Asset/visible.png`,
-//       iconCode: `Asset/code.png`,
-//     },
-//     {
-//       image: `Asset/Project-Image.png`,
-//       title: `UI UX`,
-//       description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-//               aspernatur.`,
-//       iconVisible: `Asset/visible.png`,
-//       iconCode: `Asset/code.png`,
-//     },
-//   ];
-
-//   isContentProject.forEach((m) => {
-//     card += showContentProject(m);
-//     bodyProject.innerHTML = card;
-//   });
-
-//   function showContentProject(m) {
-//     return ` <div class="container-box-project">
-//             <div class="box-project">
-//               <div class="project-link">
-//                 <img src="${m.image}" id="isImgProject" class="img-project" alt="" />
-//               </div>
-//               <div class="content-project">
-//                 <h1>${m.title}</h1>
-//                 <span
-//                   >${m.description}</span
-//                 >
-//                 <div class="icon-project-container">
-//                   <div class="icon-project-box">
-//                    <a href=""><img src="${m.iconVisible}" alt="" /></a>
-//                   </div>
-//                   <div class="icon-project-box">
-//                     <a href=""><img src="${m.iconCode}" alt="" /></a>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         `;
-//   }
-
-//   const thisContentProject = document.querySelectorAll(".content-project");
-//   const imgProject = document.querySelectorAll(".img-project");
-
-//   const imgMouseover = function () {
-//     imgProject.forEach((img, index) => {
-//       img.addEventListener("mouseover", function () {
-//         thisContentProject.forEach((content, contentIndex) => {
-//           const topValue = contentIndex === index ? 0 : "100%";
-//           content.style.top = topValue;
-//         });
-//       });
-//     });
-//   };
-//   imgMouseover();
-// }
-// myProject();
 function project() {
   const boxMainImgProject = document.querySelector(".content-img-project");
   const visibleIcon = document.querySelector(".icon-visible-project");
@@ -824,7 +719,7 @@ function project() {
     const showAnotherProject = [
       {
         title: `Portfolio Web`,
-        img: `Asset/portfolio.png`,
+        img: `Asset/Portfolio.png`,
         explanation:
           "Sebuah Website Portfolio yang juga menjadi Aplikasi pertama yang berhasil saya buat untuk Portfolio saya, Aplikasi ini di buat menggunakan HTML, CSS, dan Vanilla Javascript",
         iconImg1: `Asset/html-5.png`,
